@@ -35,7 +35,7 @@ def main():
     position = Point(x, y)
 
     player = Actor()
-    player.set_text("@")
+    player.set_text("#")
     player.set_font_size(FONT_SIZE)
     player.set_color(RED)
     player.set_position(position)
